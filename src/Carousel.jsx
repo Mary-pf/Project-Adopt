@@ -17,8 +17,8 @@ class Carousel extends Component {
 
 
     render () {
-        const {active} = this.state
-        const {images} = this.props
+        const {active} = this.state;
+        const {images} = this.props;
 
         return (
             <div className="carousel">
@@ -42,10 +42,5 @@ class Carousel extends Component {
     }
 }
 
-function CarouselParent ({ animal }){
-    const [breedList] = useBreedList(animal);
-
-    return <Carousel breedList={breedList} />
-}
 
 export default Carousel;
