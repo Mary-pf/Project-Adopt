@@ -4,3 +4,6 @@ dist/
 .DS-Store
 converage/
 .vscode/
+node_modules
+dist
+
