@@ -5,7 +5,7 @@ import AdoptedPetContext from "./AdoptedPetContext";
 import useBreedList from "./useBreedList";
 import fetchSearch from "./fetchSearch";
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
-
+// 
 const SearchParams = () => {
   const [requestParams, setRequestParams] = useState({
     location: "",
